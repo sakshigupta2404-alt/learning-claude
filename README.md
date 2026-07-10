@@ -1,8 +1,7 @@
-# learning-claude
-My hands-on learning repo for Claude Code, Git, MCP, CI/CD”
-# learning-claude
 
-My hands-on learning repo for Claude Code, Git, MCP, CI/CD, and DevOps workflows.
+ learning-claude
+
+My hands-on learning repo for Claude Code, Git, MCP, CI/CD.
 
 ## Log
 - Day 1: Created repo, made first commit.
