@@ -1,0 +1,9 @@
+July 17, 2026
+
+Set up new laptop for Claude Code learning:
+- Installed Git, VS Code, Python, and Claude Code CLI.
+- Set Git's default editor to VS Code.
+- Set Git identity to Sakshi Gupta (sakshigupta2404@gmail.com) for the learning-claude repo.
+- Cloned the learning-claude repo.
+- Ran Claude Code CLI for the first time; had it add a Day 2 log entry to README.md.
+- Committed and pushed the README.md change to origin/main.
