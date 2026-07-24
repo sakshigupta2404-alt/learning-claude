@@ -1,31 +1,7 @@
-name: Test NRQL Script
-
-on:
-  push:
-    branches: [main]
-
-jobs:
-  run-script:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out the repo
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: |
-          cd nrql-script
-          pip install -r requirements.txt
-
-      - name: Run the NRQL script
-        env:
-          NEW_RELIC_USER_KEY: ${{ secrets.NEW_RELIC_USER_KEY }}
-          NEW_RELIC_ACCOUNT_ID: ${{ secrets.NEW_RELIC_ACCOUNT_ID }}
-        run: |
-          cd nrql-script
-          python query_new_relic.py
+.env
+venv/
+__pycache__/
+terraform-key.json
+.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
